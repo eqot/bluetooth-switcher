@@ -1,0 +1,21 @@
+{
+  "name": "bluetooth-switcher",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel index.html -d build",
+    "build": "parcel build src/index.ts"
+  },
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "base64-js": "^1.5.1"
+  }
+}
